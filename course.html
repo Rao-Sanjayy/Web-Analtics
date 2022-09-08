@@ -9,9 +9,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-K8H7W7N');
 <!-- End Google Tag Manager -->
-	
-	dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
-	dataLayer.push({
+	window.dataLayer = window.dataLayer||[]
+	window.dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
+	window.dataLayer.push({
   	event: "purchase",
   	ecommerce: {
 	      transaction_id: "T_12345",
@@ -117,7 +117,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </script>
 	
 
-    <title>Contact Page</title>
+    <title>Course Page</title>
 </head>
 
 <body>
