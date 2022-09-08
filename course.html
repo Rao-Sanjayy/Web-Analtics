@@ -7,8 +7,61 @@
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-K8H7W7N');</script>
+})(window,document,'script','dataLayer','GTM-K8H7W7N');
 <!-- End Google Tag Manager -->
+	
+	dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
+	dataLayer.push({
+  	event: "purchase",
+  	ecommerce: {
+	      transaction_id: "T_12345",
+	      affiliation: "Christ Online courses",
+	      value: 25.42,
+	      tax: 4.90,
+	      shipping: 5.99,
+	      currency: "INR",
+	      coupon: "SUMMER_SALE",
+	      items: [
+	       {
+		item_id: "SKU_12345",
+		item_name: "Complete Python Course",
+		affiliation: "Coursera",
+		coupon: "SUMMER_FUN",
+		currency: "INR",
+		discount: 2.22,
+		index: 0,
+		item_brand: "Python",
+		item_category: "Education",
+		item_category2: "Python",
+		item_category3: "Beginners Python",
+		item_category4: "School",
+		item_category5: "Coding",
+		price: 9.99,
+		quantity: 1
+	      },
+	      {
+
+		item_id: "SKU_12346",
+		item_name: "Web Analytics Online Training",
+		affiliation: "Coursera",
+		coupon: "SUMMER_FUN",
+		currency: "INR",
+		discount: 2.22,
+		index: 1,
+		item_brand: "Web Analytics",
+		item_category: "Education",
+		item_category2: "Python",
+		item_category3: "Beginners Python",
+		item_category4: "School",
+		item_category5: "Coding",
+		price: 20.99,
+		quantity: 1
+	      }]
+	  }
+	});
+	
+</script>	
+	
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
