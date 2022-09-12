@@ -12,6 +12,106 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	
 	window.dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
 	window.dataLayer.push({
+  	event: "view_item",
+  	ecommerce: {
+	      transaction_id: "T_12345",
+	      affiliation: "Christ Online courses",
+	      value: 25.42,
+	      tax: 4.90,
+	      shipping: 5.99,
+	      currency: "INR",
+	      coupon: "SUMMER_SALE",
+	      items: [
+	       {
+		item_id: "SKU_12345",
+		item_name: "Complete Python Course",
+		affiliation: "Coursera",
+		coupon: "SUMMER_FUN",
+		currency: "INR",
+		discount: 2.22,
+		index: 0,
+		item_brand: "Python",
+		item_category: "Education",
+		item_category2: "Python",
+		item_category3: "Beginners Python",
+		item_category4: "School",
+		item_category5: "Coding",
+		price: 9.99,
+		quantity: 1
+	      },
+	      {
+
+		item_id: "SKU_12346",
+		item_name: "Web Analytics Online Training",
+		affiliation: "Coursera",
+		coupon: "SUMMER_FUN",
+		currency: "INR",
+		discount: 2.22,
+		index: 1,
+		item_brand: "Web Analytics",
+		item_category: "Education",
+		item_category2: "Python",
+		item_category3: "Beginners Python",
+		item_category4: "School",
+		item_category5: "Coding",
+		price: 20.99,
+		quantity: 1
+	      }]
+	  }
+	});
+	
+	window.dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
+	window.dataLayer.push({
+  	event: "add_to_cart",
+  	ecommerce: {
+	      transaction_id: "T_12345",
+	      affiliation: "Christ Online courses",
+	      value: 25.42,
+	      tax: 4.90,
+	      shipping: 5.99,
+	      currency: "INR",
+	      coupon: "SUMMER_SALE",
+	      items: [
+	       {
+		item_id: "SKU_12345",
+		item_name: "Complete Python Course",
+		affiliation: "Coursera",
+		coupon: "SUMMER_FUN",
+		currency: "INR",
+		discount: 2.22,
+		index: 0,
+		item_brand: "Python",
+		item_category: "Education",
+		item_category2: "Python",
+		item_category3: "Beginners Python",
+		item_category4: "School",
+		item_category5: "Coding",
+		price: 9.99,
+		quantity: 1
+	      },
+	      {
+
+		item_id: "SKU_12346",
+		item_name: "Web Analytics Online Training",
+		affiliation: "Coursera",
+		coupon: "SUMMER_FUN",
+		currency: "INR",
+		discount: 2.22,
+		index: 1,
+		item_brand: "Web Analytics",
+		item_category: "Education",
+		item_category2: "Python",
+		item_category3: "Beginners Python",
+		item_category4: "School",
+		item_category5: "Coding",
+		price: 20.99,
+		quantity: 1
+	      }]
+	  }
+	});
+	
+	window.dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
+	window.dataLayer.push({
   	event: "purchase",
   	ecommerce: {
 	      transaction_id: "T_12345",
