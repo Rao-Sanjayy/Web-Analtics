@@ -172,7 +172,34 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
 
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
     <!-- LightSlider CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css"
         integrity="sha512-yJHCxhu8pTR7P2UgXFrHvLMniOAL5ET1f5Cj+/dzl+JIlGTh5Cz+IeklcXzMavKvXP8vXqKMQyZjscjf3ZDfGA=="
@@ -269,6 +296,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 &emsp;  &emsp;  &emsp;  &emsp;  <button class="button btn-cart2"><a id="btncart_2" href="cart.html" style="font: bold 24px Arial; color:red;">Add-to-cart</a></button> &emsp;  &emsp;  			 
 <button type="button" style="font: bold 24px  Arial; color:green;"><a id="btnpurchase_2" href="sucess.html">Purchase</a></button><br />
 
+	
+<div class="card">
+  <img src="1.jpg" alt="The Complete Python Course" style="width:100%">
+  <h1>The Complete Python Course</h1>
+  <p class="price">$19.99</p>
+  <p>Some text about the course..</p>
+  <p><button>Add to Cart</button></p>
+</div>	
+	
 </body>
 
 </html>
